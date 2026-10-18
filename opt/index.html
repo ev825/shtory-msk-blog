@@ -7,37 +7,93 @@
 <link rel="canonical" href="https://blog.shtory-msk.ru/opt/">
 <meta name="description" content="Опт и объекты: материалы Жалюзи·MSK для Москвы в пределах МКАД.">
 <link rel="stylesheet" href="https://shtory-msk.ru/fonts/fonts.css">
-<style>
-:root{--ink:#33403E;--text:#3A4744;--muted:#75847F;--bg:#F5F2EC;--acc:#4F7A66;--acc-dk:#3F6553;--paper:#fff;--line:#E0DCD4;--deep:#3E514A}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font-family:Onest,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:17px;line-height:1.62}
-h1,h2,h3{font-family:Unbounded,Onest,sans-serif;font-weight:400;letter-spacing:-.025em;color:var(--ink);line-height:1.2}
-h1{font-size:clamp(1.8rem,4vw,2.8rem)}
-main{max-width:760px;margin:0 auto;padding:28px 20px 72px}
-.hdr{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;gap:16px;align-items:center;padding:14px 20px;background:rgba(245,242,236,.92);border-bottom:1px solid var(--line)}
-.hdr nav{display:flex;gap:14px;flex-wrap:wrap}
-a{color:var(--acc-dk)}
-.logo{font-weight:700;text-decoration:none;color:var(--ink)}
-.eyebrow{font-family:"JetBrains Mono",ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);font-size:.72rem}
-.lead-box{background:var(--paper);border-left:4px solid var(--acc);padding:16px 18px;margin:18px 0 28px}
-table{width:100%;border-collapse:collapse;display:block;overflow-x:auto}
-th,td{border:1px solid var(--line);padding:10px 12px;text-align:left}
-th{background:#E8EFE8}
-.conversion-cluster{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:20px;margin:32px 0}
-.btn-grid{display:grid;grid-template-columns:1fr;gap:12px}
-.cta-btn{display:flex;align-items:center;justify-content:center;min-height:44px;padding:12px 16px;border-radius:12px;text-decoration:none;font-weight:600}
-.btn-call{background:var(--acc);color:#fff}
-.btn-catalog{background:var(--deep);color:#fff}
-.btn-wholesale{background:#fff;color:var(--deep);border:2px solid var(--deep)}
-.faq-card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 12px}
-footer{padding:24px 20px 40px;color:var(--muted);text-align:center}
-.skip{position:absolute;left:-999px}
-.skip:focus{left:8px;top:8px;background:#fff;padding:8px}
-@media(min-width:720px){.btn-grid{grid-template-columns:repeat(3,1fr)}}
-</style>
+<link rel="stylesheet" href="https://shtory-msk.ru/css/site.css">
 </head>
-<body>
-<header class="hdr"><a class="logo" href="https://blog.shtory-msk.ru/">Статьи</a></header>
+<body class="article-page">
+<a class="skip" href="#main">Перейти к содержанию</a>
+<header class="hdr" id="top">
+  <div class="wrap hdr__in">
+    <a class="logo" href="https://shtory-msk.ru/" aria-label="На главную">
+      <span class="logo__mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="logo__txt">Жалюзи<b>·</b>MSK</span>
+    </a>
+    <nav class="nav" aria-label="Основное меню">
+      <a href="https://shtory-msk.ru/#products">Изделия</a>
+      <div class="nav__drop" id="nav-tkani">
+        <a href="https://shtory-msk.ru/konfigurator.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-tkani-menu">Конфигуратор изделий</a>
+        <ul class="nav__sub" id="nav-tkani-menu">
+          <li><a href="https://shtory-msk.ru/gorizontalnye-kassetnye-zhalyuzi.html">Горизонтальные кассетные жалюзи</a></li>
+          <li><a href="https://shtory-msk.ru/gorizontalnye-zhalyuzi-holis.html">Горизонтальные жалюзи HOLIS</a></li>
+          <li><a href="https://shtory-msk.ru/vertikalnye-tkanevye-zhalyuzi.html">Вертикальные тканевые жалюзи</a></li>
+          <li><a href="https://shtory-msk.ru/vertikalnye-plastikovye-zhalyuzi.html">Вертикальные пластиковые жалюзи</a></li>
+          <li><a href="https://shtory-msk.ru/rulonnye-shtory-mini.html">Рулонные шторы MINI</a></li>
+          <li><a href="https://shtory-msk.ru/kassetnye-rulonnye-shtory.html">Кассетные рулонные шторы</a></li>
+          <li><a href="https://shtory-msk.ru/rulonnye-shtory-standart.html">Рулонные шторы STANDART</a></li>
+          <li><a href="https://shtory-msk.ru/rulonnye-shtory-lux-32.html">Рулонные шторы LUX 32</a></li>
+          <li><a href="https://shtory-msk.ru/rulonnye-shtory-lux-45.html">Рулонные шторы LUX 45</a></li>
+          <li><a href="https://shtory-msk.ru/rulonnye-shtory-mini-zebra.html">Рулонные шторы MINI Зебра</a></li>
+          <li><a href="https://shtory-msk.ru/kassetnye-rulonnye-shtory-zebra.html">Кассетные рулонные шторы Зебра</a></li>
+          <li><a href="https://shtory-msk.ru/rulonnye-shtory-standart-zebra.html">Рулонные шторы STANDART Зебра</a></li>
+          <li><a href="https://shtory-msk.ru/rimskie-shtory-midi.html">Римские шторы MIDI</a></li>
+        </ul>
+      </div>
+      <a href="https://shtory-msk.ru/#works">Работы</a>
+      <a href="https://shtory-msk.ru/#prices">Скидки</a>
+      <a href="https://shtory-msk.ru/#faq">Вопросы</a>
+      <a href="https://shtory-msk.ru/blog/">Блог</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Открыть меню">
+      <span class="nav-toggle__bars" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+    <div class="hdr__cta">
+      <a class="tel" href="tel:+79265335063" toolname="call_measurer" tooldescription="Позвонить в Жалюзи·MSK для бесплатного замера жалюзи и рулонных штор в Москве и в пределах МКАД.">+7 (926) 533-50-63</a>
+      <a class="ico ico--phone" href="tel:+79265335063" aria-label="Позвонить" toolname="call_measurer" tooldescription="Позвонить в Жалюзи·MSK для бесплатного замера жалюзи и рулонных штор в Москве и в пределах МКАД."><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.85 21 3 13.15 3 3.5a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2z"/></svg></a>
+      <a class="ico" href="https://t.me/+79265335063" target="_blank" rel="noopener" aria-label="Написать в Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg></a>
+      <a class="btn btn--acc btn--sm" href="tel:+79265335063" toolname="call_measurer" tooldescription="Позвонить в Жалюзи·MSK для бесплатного замера жалюзи и рулонных штор в Москве и в пределах МКАД.">Позвонить</a>
+    </div>
+  </div>
+</header>
+<nav class="nav-panel" id="nav-panel" hidden aria-label="Мобильное меню">
+  <ul class="nav-panel__list">
+    <li><a href="https://shtory-msk.ru/#products">Изделия</a></li>
+    <li>
+      <a href="https://shtory-msk.ru/konfigurator.html">Конфигуратор изделий</a>
+      <ul class="nav-panel__sub">
+          <li><a href="https://shtory-msk.ru/gorizontalnye-kassetnye-zhalyuzi.html">Горизонтальные кассетные жалюзи</a></li>
+          <li><a href="https://shtory-msk.ru/gorizontalnye-zhalyuzi-holis.html">Горизонтальные жалюзи HOLIS</a></li>
+          <li><a href="https://shtory-msk.ru/vertikalnye-tkanevye-zhalyuzi.html">Вертикальные тканевые жалюзи</a></li>
+          <li><a href="https://shtory-msk.ru/vertikalnye-plastikovye-zhalyuzi.html">Вертикальные пластиковые жалюзи</a></li>
+          <li><a href="https://shtory-msk.ru/rulonnye-shtory-mini.html">Рулонные шторы MINI</a></li>
+          <li><a href="https://shtory-msk.ru/kassetnye-rulonnye-shtory.html">Кассетные рулонные шторы</a></li>
+          <li><a href="https://shtory-msk.ru/rulonnye-shtory-standart.html">Рулонные шторы STANDART</a></li>
+          <li><a href="https://shtory-msk.ru/rulonnye-shtory-lux-32.html">Рулонные шторы LUX 32</a></li>
+          <li><a href="https://shtory-msk.ru/rulonnye-shtory-lux-45.html">Рулонные шторы LUX 45</a></li>
+          <li><a href="https://shtory-msk.ru/rulonnye-shtory-mini-zebra.html">Рулонные шторы MINI Зебра</a></li>
+          <li><a href="https://shtory-msk.ru/kassetnye-rulonnye-shtory-zebra.html">Кассетные рулонные шторы Зебра</a></li>
+          <li><a href="https://shtory-msk.ru/rulonnye-shtory-standart-zebra.html">Рулонные шторы STANDART Зебра</a></li>
+          <li><a href="https://shtory-msk.ru/rimskie-shtory-midi.html">Римские шторы MIDI</a></li>
+      </ul>
+    </li>
+    <li><a href="https://shtory-msk.ru/#works">Работы</a></li>
+    <li><a href="https://shtory-msk.ru/#prices">Скидки</a></li>
+    <li><a href="https://shtory-msk.ru/#faq">Вопросы</a></li>
+    <li><a href="https://shtory-msk.ru/blog/">Блог</a></li>
+    <li><a href="https://shtory-msk.ru/#contact">Контакты</a></li>
+  </ul>
+  <div class="nav-panel__cta">
+    <a class="btn btn--acc btn--full" href="tel:+79265335063" toolname="call_measurer" tooldescription="Позвонить в Жалюзи·MSK для бесплатного замера жалюзи и рулонных штор в Москве и в пределах МКАД.">Позвонить +7 (926) 533-50-63</a>
+    <a class="btn btn--soft btn--full" href="https://t.me/+79265335063" target="_blank" rel="noopener">Написать в Telegram</a>
+  </div>
+</nav>
+
 <main id="main"><h1>Опт и объекты</h1><ul><li><a href="https://blog.shtory-msk.ru/opt/usloviya-ot-10-izdeliy/">Скидка на 10 изделий: что прислать до расчёта</a></li></ul></main>
+<footer class="ftr"><div class="wrap ftr__in"><div class="ftr__col"><h4>Разделы</h4>
+<p><a href="https://blog.shtory-msk.ru/">Статьи</a></p>
+<p><a href="https://shtory-msk.ru/konfigurator.html">Конфигуратор изделий</a></p>
+<p><a href="https://shtory-msk.ru/">На сайт</a></p>
+<p><a href="tel:+79265335063">+7 (926) 533-50-63</a></p>
+</div></div></footer>
+<script src="https://shtory-msk.ru/js/ui.js"></script>
 </body>
 </html>
+
