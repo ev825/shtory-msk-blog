@@ -3,4 +3,4 @@ Allow: /
 
 User-agent: *
 Allow: /
-Sitemap: https://blog.shtory-msk.ru/sitemap.xml
+Sitemap: https://shtory-msk.ru/sitemap.xml
